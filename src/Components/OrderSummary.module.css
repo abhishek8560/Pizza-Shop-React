@@ -1,0 +1,125 @@
+.orderContainer {
+  display: flex;
+  flex-flow: column;
+  width: 25%;
+  height: 100%;
+}
+.orderHead {
+  font-size: 50px;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2.5px;
+  border-bottom: 2px solid grey;
+}
+.orderItems {
+  height: 65%;
+  overflow: auto;
+}
+.checkout {
+  display: flex;
+  flex-flow: column;
+  height: 15%;
+  background-color: lightgrey;
+}
+.checkout > p {
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgb(57, 57, 57);
+}
+.checkout > button {
+  font-size: 30px;
+  padding: 15px;
+  margin: 5px 15px;
+  border-radius: 20px;
+  background-color: rgb(29, 168, 29);
+  color: white;
+  letter-spacing: 2px;
+}
+.checkout > button:hover {
+  background-color: green;
+}
+.orderItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+
+}
+.orderItem > * {
+  font-size: 25px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+.totalPrice{
+  height: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid grey;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.totalPrice > p{
+  font-size: 30px;
+}
+.finalPrice{
+  color: red;
+}
+.getTotal{
+  font-size: 25px;
+  padding: 5px;
+  width: 150px;
+  background-color: rgb(29, 168, 29);
+  border-radius: 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+.getTotal:hover{
+  background-color: green;
+}
+.emptyMessage{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 140px;
+}
+.icon{
+  font-size: 100px;
+  color: grey;
+  padding-bottom: 30px;
+}
+.emptyMessage > p{
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 30px;
+  letter-spacing: 1px;
+}
+.orderCompleteContainer{
+  display: flex;
+  flex-flow: column;
+  height: 15%;
+  border-top: 2px solid grey;
+  align-items: center;
+  justify-content: center;
+}
+.orderCompleteContainer p{
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: red;
+  font-weight: 800;
+}
+.noItems{
+  border-top: 2px solid grey;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: red;
+  padding-top: 50px;
+}

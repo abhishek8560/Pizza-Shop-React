@@ -1,0 +1,9 @@
+.pizzaContainer {
+  display: flex;
+  flex-flow: row wrap;
+  height: 85%;
+  width: 100%;
+  background-color: rgb(222, 222, 222);
+  padding: 20px 50px;
+  overflow: auto;
+}

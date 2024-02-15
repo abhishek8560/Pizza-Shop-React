@@ -1,0 +1,100 @@
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.aboutApp {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 170px;
+  background-image: url("../assets//pizzaBack.png");
+}
+.aboutApp > p {
+  font-size: 32px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+.aboutApp > h1 {
+  font-size: 80px;
+  padding: 30px;
+  color: red;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
+.create {
+  padding-top: 100px;
+}
+.create > * {
+  font-weight: 900;
+}
+.icons {
+  display: flex;
+  width: 400px;
+  text-align: center;
+  width: 1000px;
+  background-color: white;
+  justify-content: center;
+}
+.icons > * {
+  font-size: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  padding-bottom: 2px;
+  width: 80px;
+}
+.icons > *:hover {
+  color: red;
+  font-weight: 900;
+}
+.loginForm {
+  background-color: grey;
+  width: 20%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.loginForm > input,
+.loginForm > button {
+  font-size: 30px;
+  padding: 10px;
+  border: none;
+  margin: 10px 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+.loginForm > h1 {
+  font-size: 70px;
+  padding-bottom: 20px;
+  color: white;
+  padding-top: 100px;
+}
+.loginForm > button {
+  width: 385px;
+}
+.loginForm > button:hover {
+  background-color: rgb(172, 172, 172);
+  color: white;
+  border: 2px solid white;
+}
+.time {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+  padding-top: 20px;
+  border-top: 2px solid white;
+  width: 20%;
+  text-align: center;
+  font-weight: 700;
+}
+.welcomeText {
+  padding-top: 50px;
+}
